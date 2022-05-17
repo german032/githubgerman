@@ -6,7 +6,7 @@
 }
 
 body{
-	background-color: blue;
+	background: linear-gradient(to left,white,blue)	;
 	font-family: 'PT Sans', sans-serif;
 	color: white;
 }
