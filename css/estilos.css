@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: blue;
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+}
+
+/*Menu Superior*/
+
+.menuSuperior{
+	
+	background-color: blue;
+	padding: 10px;
+	align-self: center;
+	justify-self: center;
+	position: sticky;
+	top: 0;
+}
+
+
+.menuSuperior li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 3rem;
+	
+}
+.menuSuperior a{
+	color: white;
+	font-weight: bold;
+}
+
+
+#header{
+  	background-image: url(../assets/g3d.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+}
+
+
+
+
+/*contenido*/
+
+.container-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 40px;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.titulo{
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+
+}
+
+.texto{
+	font-weight: 400;
+}
+
+.container-flex .item{
+	width: 48%;
+    align-self: center;
+
+}
+@media (max-width: 768px){
+	.container-flex .item{
+	width: 100%;}
+}
+
+.container-flex .imagen{
+	width: 100%;
+	max width: 70px;
+
+}
+
+.container-flex .itemEnlaces{
+	width: 48%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2em;
+	align-content: center;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.itemEnlaces li{
+	list-style: none;
+ }
+
+
+
+
+
+/*footer*/
+
+.footer{
+	align-self: center;
+	justify-self: center;
+	}
+
+#containergrid{
+	display: grid;
+	grid-template-rows: 120px 340px auto 120px;
+	}
+
